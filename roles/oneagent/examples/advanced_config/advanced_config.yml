@@ -7,9 +7,11 @@
     - dynatrace.oneagent
   # credentials.yml file contains oneagent_environment_url and
   # oneagent_paas_token variables that needs to be stored securely
-  vars_files:
-    - credentials.yml
+  #vars_files:
+    #- credentials.yml
   vars:
+    oneagent_environment_url: 'https://yxu78307.live.dynatrace.com'
+    oneagent_paas_token: 'dt0c01.74LOGKUBPARWEZBH5IDW7WQO.EZCB3CWNHZUFJ7XREFGOG2FVXSDSWCRENKS26ZDJGPVJZQUGWLSAFBKMZSYJPSYK'
     oneagent_download_dir: /var/opt
     oneagent_version: latest
     oneagent_install_args:
