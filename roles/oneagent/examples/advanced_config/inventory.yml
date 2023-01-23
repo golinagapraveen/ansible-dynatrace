@@ -7,17 +7,10 @@ all:
           children:
             linux_other:
               hosts:
-                www.otherhost1.com:
-                www.otherhost2.com:
+                52.208.181.26:
               vars:
                 oneagent_installer_arch: x86
                 oneagent_platform_install_args:
-                  - USER=other_user
-            linux_arm:
-              hosts: arm_host.com
-              vars:
-                oneagent_installer_arch: arm
-                oneagent_platform_install_args:
-                  - USER=arm_user
+                  - USER=ansible
       vars:
         ansible_become: true

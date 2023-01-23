@@ -1,7 +1,7 @@
 ---
 # Set environment variables
-oneagent_environment_url: ''
-oneagent_paas_token: ''
+oneagent_environment_url: 'https://yxu78307.live.dynatrace.com'
+oneagent_paas_token: 'dt0c01.74LOGKUBPARWEZBH5IDW7WQO.EZCB3CWNHZUFJ7XREFGOG2FVXSDSWCRENKS26ZDJGPVJZQUGWLSAFBKMZSYJPSYK'
 
 # Set local installer location
 oneagent_local_installer: ''
@@ -22,7 +22,7 @@ oneagent_platform_install_args: []
 oneagent_package_state: present
 
 # Set the OneAgent download directory
-oneagent_download_dir: ''
+oneagent_download_dir: '/ansible'
 
 # Set the need of preserving installers on secondary machines
 oneagent_preserve_installer: false
